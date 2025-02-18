@@ -31,7 +31,7 @@ The *Car Evaluation Dataset* contains *1,728 instances* and *7 categorical attri
 ### **1. car_evaluation.csv**  
 - *Dataset* containing categorical car evaluation attributes.
 
-### **2. exploratory_analysis.R** ([Code](exploratory_analysis.R))  
+### **2. exploratory_analysis.R** 
 - **EDA using ggplot2**:  
   - Analyzes *safety, buying price, maintenance, doors, persons, and luggage boot space* against *class*.  
   - Generates *bar plots* to visualize trends.  
@@ -40,7 +40,7 @@ The *Car Evaluation Dataset* contains *1,728 instances* and *7 categorical attri
     - Cars with *higher capacity (4+ persons)* have higher acceptability.  
     - Cars with *low and medium maintenance costs* have better acceptance.
 
-### **3. decisiontree.r** ([Code](decisiontree.r))  
+### **3. decisiontree.r**
 - *Implements a Decision Tree Model* using rpart.  
 - *Methodology:*  
   - Splits data *80% (train) / 20% (test)*.  
@@ -51,7 +51,7 @@ The *Car Evaluation Dataset* contains *1,728 instances* and *7 categorical attri
   - *Persons capacity* is the second most influential factor.  
   - *Decision Tree Accuracy:* ~ *85%*  
 
-### **4. randomforest.r** ([Code](randomforest.r))  
+### **4. randomforest.r**
 - *Implements a Random Forest Model* using randomForest.  
 - *Methodology:*  
   - Uses *500 decision trees* for higher accuracy.  
@@ -64,7 +64,7 @@ The *Car Evaluation Dataset* contains *1,728 instances* and *7 categorical attri
   - *Random Forest Accuracy:* ~ *92%*  
   - *Random Forest outperforms Decision Tree due to ensemble learning.*
 
-### **5. researchquestion.r** ([Code](researchquestion.r))  
+### **5. researchquestion.r**
 - Investigates *three research questions* using probability calculations and visualizations.  
 - *Findings:*  
   1. *Most Influential Features Affecting Car Evaluation:*  
@@ -75,7 +75,7 @@ The *Car Evaluation Dataset* contains *1,728 instances* and *7 categorical attri
      - *Small luggage boot space cars are mostly rejected*.  
      - Cars with *medium and big luggage boot space* have higher acceptability.
 
-### **6. Final project written paper.pdf** ([Report](Final project written paper.pdf))  
+### **6. Final project written paper.pdf**
 - *Comprehensive project report* covering methodology, results, and conclusions.  
 - *Key topics:*  
   - Data source and preprocessing.  
